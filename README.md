@@ -46,11 +46,7 @@ Integración de PlayerState para gestionar los datos de los jugadores.
 
 **Video:** [Ver demostración](ENLACE_VIDEO)
 
-**Código:** [Ver código]
-<a href="ENLACE_CODIGO">
-  <img src="screenshots/DataSystem/DataManagerServer.png" alt="Código parte 1" width="48%">
-  <img src="screenshots/DataSystem/Replica-Data-Client.png" alt="Código parte 2" width="48%">
-</a>
+**Código:** <a href="screenshots/DataSystem"></a>
 
 ---
 
