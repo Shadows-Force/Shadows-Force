@@ -8,7 +8,7 @@
 
 ### Inicialización
 
-Primero, inicializamos los datos del jugador utilizando la siguiente función:
+inicio datos del jugador con:
 
 ```lua
 PlayerState.Init()
