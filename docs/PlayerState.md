@@ -6,12 +6,6 @@
 
 <br>
 
-## Lado del servidor
-
-Para gestionar la carga y el guardado de datos, utilizaremos un Script dentro de **ServerScriptService (SSS)**.
-
-<br>
-
 ### Inicialización
 
 Primero, inicializamos los datos del jugador utilizando la siguiente función:
