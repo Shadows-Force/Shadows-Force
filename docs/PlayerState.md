@@ -46,7 +46,7 @@ end)
 
 Espero a que esten listos:
 
-```
+```lua
 while not PlayerState.IsReady() do
 	task.wait()
 end
@@ -56,7 +56,7 @@ end
 
 Obtengo datos: 
 
-```
+```lua
 local Coins = PlayerState.Get("Coins") or 0
 ```
 
@@ -64,7 +64,7 @@ local Coins = PlayerState.Get("Coins") or 0
 
 Atento a cualquier cambio en **"Coins"** para posterior actualizacion
 
-```
+```lua
 PlayerState.OnChanged("Coins", function(new, old, info)
 	print("Coins changed:", new)
 end)
