@@ -1,6 +1,6 @@
 # PlayerState
 
-<p align="center">
+<p>
   Librería para gestionar el estado y los datos de los jugadores en Roblox.
 </p>
 
