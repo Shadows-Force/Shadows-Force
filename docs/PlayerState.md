@@ -31,3 +31,9 @@ PlayerState.BeforeRelease:Connect(function(plr, data)
    -- ultimas modificaciones antes de guardar --
 )
 ```
+
+## Image
+
+<p align="center">
+  <img src="screenshots/DataSystem/DataManagerServer.png" width="48%">
+</p>
