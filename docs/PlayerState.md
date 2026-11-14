@@ -16,7 +16,7 @@ PlayerState.Init()
 
 <br>
 
-Luego, esperamos a que los datos del jugador se carguen completamente:
+atento cuando carguen:
 
 ```lua
 PlayerState.ProfileLoaded:Connect(function(plr, data)
@@ -26,7 +26,7 @@ end)
 
 <br>
 
-Finalmente, detectamos cuándo el jugador abandona el juego para realizar las últimas modificaciones antes de guardar sus datos:
+atento cuando se vaya:
 
 ```lua
 PlayerState.BeforeRelease:Connect(function(plr, data)
