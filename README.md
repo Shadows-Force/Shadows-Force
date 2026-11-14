@@ -5,8 +5,6 @@
 
 **Backend · Sistemas de servidor · Gestión de datos**
 
-Me gusta desarrollar sistemas para Roblox, especialmente la parte que funciona detrás de la experiencia del jugador.
-
 </div>
 
 ---
