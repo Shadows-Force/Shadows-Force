@@ -20,5 +20,14 @@ Luego espero a que los datos del jugador se carguen completamente
 
 ```lua
 PlayerState.ProfileLoaded:Connect(function(plr, data)
+   -- codigo aqui --
+)
+```
+
+Al final solo detecto cuando el jugador se va del juego para hacer las ultimas modificaciones antes de guardar
+
+```lua
+PlayerState.BeforeRelease:Connect(function(plr, data)
+   -- ultimas modificaciones antes de guardar --
 )
 ```
