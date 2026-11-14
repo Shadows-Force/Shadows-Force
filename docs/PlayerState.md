@@ -10,10 +10,15 @@ Para gestionar la carga y el guardado de datos, utilizaremos un Script dentro de
 
 ### Inicialización
 
-Primero, debemos inicializar la librería utilizando la siguiente función:
+Primero, Inicializo los datos del jugador utilizando la siguiente función:
 
 ```lua
 PlayerState.Init()
 ```
 
-Esta función se encarga de iniciar el sistema de PlayerState para permitir la gestión de los datos de los jugadores.
+Luego espero a que los datos del jugador se carguen completamente
+
+```lua
+PlayerState.ProfileLoaded:Connect(function(plr, data)
+)
+```
