@@ -44,7 +44,7 @@ Integración de PlayerState para gestionar los datos de los jugadores.
 
 **Video:** [Ver demostración](ENLACE_VIDEO)
 
-**Código:** <a href="screenshots/DataSystem">Ver capturas de pantalla</a>
+**Código:** [Ver codigo](docs/PlayerState.md)
 
 ---
 
