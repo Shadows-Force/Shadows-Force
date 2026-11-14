@@ -32,7 +32,7 @@ end)
 
 <br>
 
-## Capturas de pantalla
+## Captura de pantalla
 
 <p align="center">
   <img src="../screenshots/DataSystem/DataManagerServer.png" width="80%">
@@ -72,7 +72,7 @@ end)
 
 <br>
 
-## Capturas de pantalla
+## Captura de pantalla
 
 <p align="center">
   <img src="../screenshots/DataSystem/Replica-Data-Client.png" width="80%">
