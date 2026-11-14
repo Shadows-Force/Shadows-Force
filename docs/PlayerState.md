@@ -1,4 +1,4 @@
-# PlayerState
+# PlayerState-Server
 
 <p>
   Librería para gestionar el estado y los datos de los jugadores en Roblox.
@@ -45,3 +45,8 @@ end)
 <br>
 
 <a href="../README.md#proyectos">← Regresar</a>
+
+<br>
+
+#PlayerState-Client
+
