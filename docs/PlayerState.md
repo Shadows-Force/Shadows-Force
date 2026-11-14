@@ -34,6 +34,6 @@ PlayerState.BeforeRelease:Connect(function(plr, data)
 
 ## Image
 
-<p align="center">
+<p>
   <img src="../screenshots/DataSystem/DataManagerServer.png" width="48%">
 </p>
