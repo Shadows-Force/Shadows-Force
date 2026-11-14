@@ -1,5 +1,3 @@
-# PlayerState
-
 <h1 align="center">PlayerState</h1>
 
 <p align="center">
