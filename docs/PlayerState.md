@@ -1,9 +1,5 @@
 # PlayerState-Server
 
-<p>
-  Librería para gestionar el estado y los datos de los jugadores en Roblox.
-</p>
-
 <br>
 
 ### Inicialización
@@ -44,9 +40,44 @@ end)
 
 <br>
 
-<a href="../README.md#proyectos">← Regresar</a>
+# PlayerState-Client
 
 <br>
 
-#PlayerState-Client
+Espero a que esten listos:
 
+```
+while not PlayerState.IsReady() do
+	task.wait()
+end
+```
+
+<br>
+
+Obtengo datos: 
+
+```
+local Coins = PlayerState.Get("Coins") or 0
+```
+
+<br>
+
+Atento a cualquier cambio en **"Coins"** para posterior actualizacion
+
+```
+PlayerState.OnChanged("Coins", function(new, old, info)
+	print("Coins changed:", new)
+end)
+```
+
+<br>
+
+## Capturas de pantalla
+
+<p align="center">
+  <img src="../screenshots/DataSystem/Replica-Data-Client.png" width="80%">
+</p>
+
+<br>
+
+<a href="../README.md#proyectos">← Regresar</a>
