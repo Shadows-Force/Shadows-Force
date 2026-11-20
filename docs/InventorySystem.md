@@ -54,7 +54,8 @@ end
 ## Funciones Auxiliares
 
 ### UpdateInventory
-Acutlizo el inventario a las rutas necesarias
+
+Actualizo el inventario a las rutas necesarias
 
 ```luau
 local function updateInventory(plr, method: Methods, item, data)
@@ -69,5 +70,20 @@ local function updateInventory(plr, method: Methods, item, data)
 	end
 	
 	return ok
+end
+```
+
+<br>
+
+
+### Clean
+
+Limpo todas las rutas usadas por el Item
+
+```luau
+local function clean(plr, key)
+	local item = PlayerState.GetPath(plr, `inventory.index.{key}`)
+	if not item then return end
+	updateInventory(plr, "SetPath", item, nil)
 end
 ```
