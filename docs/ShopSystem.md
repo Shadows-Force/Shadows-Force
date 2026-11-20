@@ -90,4 +90,4 @@ end
 [Item System](docs/ShopSystem.md),  [Inventory System](docs/ShopSystem.md),  [Economy System](docs/ShopSystem.md)
 
 
-<a href="../README.md#02">← Regresar</a>
+<a href="../README.md#02-sistema-de-economía-y-tienda">← Regresar</a>
