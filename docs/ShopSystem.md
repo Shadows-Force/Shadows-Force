@@ -56,6 +56,28 @@ if not success then warn("err in inventory.add") economy.increment(plr, itemPric
 
 <br>
 
+# Funciones Auxiliares
+
+<br>
+
+```luau
+function module.setPriceMultiplier(itemId, multiplier)
+	priceMultiplier[itemId] = multiplier
+end
+```
+
+```luau
+local function getItemPrice(itemId: string)
+	if not ItemInfo[itemId] then
+		return false
+	end
+	local data = require(ItemInfo[itemId])
+	return data.price
+end
+```
+
+<br>
+
 ## Captura de Pantalla
 
 <p>
