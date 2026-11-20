@@ -3,6 +3,10 @@ sistema de compras de Items
 
 <br>
 
+
+
+
+
 ### Precios
 
 obtengo la lista de precios y valido:
