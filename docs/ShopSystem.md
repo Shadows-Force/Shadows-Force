@@ -86,7 +86,7 @@ end
 
 <br>
 
-## Systems construidos para este resultado:
+**Modulos:** [Item](docs/ShopSystem.md) [Inventory](docs/ShopSystem.md) [Economy](docs/ShopSystem.md)  
 
 
 <a href="../README.md#proyectos">← Regresar</a>
