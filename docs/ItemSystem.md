@@ -31,3 +31,19 @@ local methods = getItemMethods(item)
 if not methods then warn("methods not found") return false end
 ```
 
+<br>
+
+### Creacion del Item
+
+Dependiendo de la peticion se crea la metatabla o solo una tabla para casos de guardado
+
+```luau
+local self = mode == "lite" and data or setmetatable(data, {__index = function(_, key)
+		return methods[key] or module[key]
+	end,})
+	
+	self.key = id or generateIdentity(data)
+	self.amount = data.config.isMutable and 1 or amount or 1
+	
+	return self
+```
