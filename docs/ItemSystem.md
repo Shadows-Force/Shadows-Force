@@ -39,11 +39,11 @@ Dependiendo de la peticion se crea la metatabla o solo una tabla para casos de g
 
 ```luau
 local self = mode == "lite" and data or setmetatable(data, {__index = function(_, key)
-		return methods[key] or module[key]
-	end,})
+	return methods[key] or module[key]
+end,})
 	
-	self.key = id or generateIdentity(data)
-	self.amount = data.config.isMutable and 1 or amount or 1
+self.key = id or generateIdentity(data)
+self.amount = data.config.isMutable and 1 or amount or 1
 	
-	return self
+return self
 ```
