@@ -87,3 +87,7 @@ local function clean(plr, key)
 	updateInventory(plr, "SetPath", item, nil)
 end
 ```
+
+<br>
+
+<a href="ShopSystem.md#captura-de-pantalla">← Regresar</a>
