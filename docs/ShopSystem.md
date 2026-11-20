@@ -87,7 +87,7 @@ end
 <br>
 
 **Modulos Usados para este Sistema:**  
-[Item System](docs/ShopSystem.md),  [Inventory System](docs/ShopSystem.md),  [Economy System](docs/ShopSystem.md)
+[Item System](docs/ItemSystem.md),  [Inventory System](docs/InventorySystem.md),  [Economy System](docs/EconomySystem.md)
 
 
 <a href="../README.md#02-sistema-de-economía-y-tienda">← Regresar</a>
