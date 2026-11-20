@@ -86,7 +86,7 @@ end
 
 <br>
 
-**Modulos:** [Item](docs/ShopSystem.md) [Inventory](docs/ShopSystem.md) [Economy](docs/ShopSystem.md)  
+**Modulos:**  [Item System](docs/ShopSystem.md),  [Inventory System](docs/ShopSystem.md),  [Economy System](docs/ShopSystem.md)
 
 
 <a href="../README.md#proyectos">← Regresar</a>
