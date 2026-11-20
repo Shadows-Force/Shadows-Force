@@ -1,5 +1,5 @@
 # Shop System
-#sistema de compras de Items
+# sistema de compras de Items
 <br>
 
 ### Precios
