@@ -1,5 +1,4 @@
 # Shop System
-sistema de compras de Items
 
 <br>
 
