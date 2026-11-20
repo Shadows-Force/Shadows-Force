@@ -58,7 +58,7 @@ Descripción breve del funcionamiento del sistema.
 
 **Video:** [Ver demostración](ENLACE_VIDEO)
 
-**Código:** [Ver código](docs/ShopSystem)
+**Código:** [Ver código](docs/ShopSystem.md)
 
 ---
 
