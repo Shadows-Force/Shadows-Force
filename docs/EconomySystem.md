@@ -39,4 +39,4 @@ end
 
 <br>
 
-<a href="ShopSystem.md#Captura-de-pantalla">← Regresar</a>
+<a href="ShopSystem.md#captura-de-pantalla">← Regresar</a>
