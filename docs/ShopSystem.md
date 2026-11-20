@@ -25,3 +25,21 @@ if not itemData then warn("Item data not found") return false end
 
 <br>
 
+### Aumento o Descuento
+
+aplico el multiplicador a la lista de precios, si no existe igualo a 1 o a su valor original
+
+```luau
+itemPrices.multiplier = priceMultiplier[itemId] or 1
+```
+
+<br>
+
+### Cobrar el Dinero
+
+espero respuesta positiva de "economy" sobre el cobro del item y valido:
+
+```luau
+local ok = economy.decrement(plr, itemPrices.economy)
+if not ok then warn("err in decrement") return false end
+```
