@@ -36,3 +36,7 @@ local function update(plr, method: methods, currencies: {[string]: number})
 	return true
 end
 ```
+
+<br>
+
+<a href="ShopSystem.md">← Regresar</a>
