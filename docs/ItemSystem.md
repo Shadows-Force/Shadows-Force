@@ -215,3 +215,7 @@ local function generateIdentity(data)
 	return hashing.SHA2.SHA256(HttpService:JSONEncode(SortTable(data)))
 end
 ```
+
+<br>
+
+<a href="ShopSystem.md#captura-de-pantalla">← Regresar</a>
