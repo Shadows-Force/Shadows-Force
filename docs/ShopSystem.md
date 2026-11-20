@@ -54,6 +54,8 @@ local success = inventory.add(plr, itemData)
 if not success then warn("err in inventory.add") economy.increment(plr, itemPrices.economy) return false end
 ```
 
+<br>
+
 ## Captura de Pantalla
 
 <p>
