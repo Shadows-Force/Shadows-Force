@@ -84,3 +84,9 @@ end
   <img src="../screenshots/Shop/Buy.png" width="80%">
 </p>
 
+<br>
+
+## Systems construidos para este resultado:
+
+
+<a href="../README.md#proyectos">← Regresar</a>
