@@ -48,9 +48,11 @@ if not ok then warn("err in decrement") return false end
 
 ### Añadir Item al Inventario
 
-espero respuesta positiva de "inventory", caso contrario devuelvo el dinero gastado por seguridad:
+Por ultimo, espero respuesta positiva de "inventory", caso contrario devuelvo el dinero gastado por seguridad:
 
 ```luau
 local success = inventory.add(plr, itemData)
 if not success then warn("err in inventory.add") economy.increment(plr, itemPrices.economy) return false end
 ```
+
+## Capturas
