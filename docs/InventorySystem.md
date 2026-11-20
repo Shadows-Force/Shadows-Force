@@ -20,7 +20,7 @@ end
 
 <br>
 
-### Decrementar
+## Decrementar
 
 Decremento "amount" a un objeto "Apilable" (por defecto todos los items tienen "amount" pero de momento no hay funcion para aumentar la cantidad apilada de un objeto "no mutable")
 
@@ -46,5 +46,28 @@ end
 ```luau
 function module.remove(plr, key)
 	clean(plr, key)
+end
+```
+
+<br>
+
+## Funciones Auxiliares
+
+### UpdateInventory
+Acutlizo el inventario a las rutas necesarias
+
+```luau
+local function updateInventory(plr, method: Methods, item, data)
+	local ok, err = pcall(function()
+		PlayerState[method](plr, `inventory.index.{item.key}`, data)
+		PlayerState[method](plr, `inventory.type.{item.type}.{item.key}`, data)
+		PlayerState[method](plr, `inventory.rarity.{item.display.rarity}.{item.key}`, data)
+	end)
+	
+	if not ok then
+		warn(`[Inventory] Error updating inventory: {err}`)
+	end
+	
+	return ok
 end
 ```
