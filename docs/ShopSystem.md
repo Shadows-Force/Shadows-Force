@@ -43,3 +43,14 @@ espero respuesta positiva de "economy" sobre el cobro del item y valido:
 local ok = economy.decrement(plr, itemPrices.economy)
 if not ok then warn("err in decrement") return false end
 ```
+
+<br>
+
+### Añadir Item al Inventario
+
+espero respuesta positiva de "inventory", caso contrario devuelvo el dinero gastado por seguridad:
+
+```luau
+local success = inventory.add(plr, itemData)
+if not success then warn("err in inventory.add") economy.increment(plr, itemPrices.economy) return false end
+```
