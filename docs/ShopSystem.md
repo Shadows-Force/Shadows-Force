@@ -57,7 +57,7 @@ if not success then warn("err in inventory.add") economy.increment(plr, itemPric
 
 ## Captura de Pantalla
 
-<p align="center">
-  <img src="../screenshots/DataSystem/Replica-Data-Client.png" width="80%">
+<p>
+  <img src="../screenshots/Shop/Buy.png" width="80%">
 </p>
 
