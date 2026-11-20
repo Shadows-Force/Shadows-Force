@@ -86,7 +86,8 @@ end
 
 <br>
 
-**Modulos Usados para este Sistema:**  [Item System](docs/ShopSystem.md),  [Inventory System](docs/ShopSystem.md),  [Economy System](docs/ShopSystem.md)
+**Modulos Usados para este Sistema:**  
+[Item System](docs/ShopSystem.md),  [Inventory System](docs/ShopSystem.md),  [Economy System](docs/ShopSystem.md)
 
 
 <a href="../README.md#proyectos">← Regresar</a>
